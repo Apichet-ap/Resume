@@ -1,106 +1,178 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แนะนำตัว</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- ลิงก์ไปยัง Font Awesome เพื่อใช้ไอคอน -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        .center-img {
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Resume</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <!-- ส่วนปุ่มนำทาง -->
-    <nav>
-        <button onclick="showSection('home')">หน้าหลัก</button>
-        <button onclick="showSection('about')">เกี่ยวกับฉัน</button>
-        <button onclick="showSection('contact')">ติดต่อ</button>
-    </nav>
+	</head>
+	<body class="is-preload">
 
-    <!-- ส่วนหน้าหลัก -->
-    <section id="home" class="section-content">
-        <header>
-            <img src="images/pic001.jpg"  width="50%" >	
-            <h1>สวัสดีครับ ผมชื่อนายอภิเชษฐ์์ ทาสีลา</h1>
-            <p>ยินดีที่ได้รู้จัก!</p>
-            
-        </header>
-    </section>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/pic001.jpg" alt="" /></a>
+					<h1><strong>RESUME</strong></h1>
+					<h1><strong>Apichet Taseela</strong></h1>
+				</div>
+			</header>
 
-    <!-- ส่วนเกี่ยวกับฉัน -->
-   <!-- เพิ่ม Font Awesome CDN สำหรับไอคอน -->
-<head>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-</head>
+		<!-- Main -->
+			<div id="main">
 
-<section id="about" class="section-content" style="display: none;">
-    <h2><i class="fas fa-user"></i> เกี่ยวกับฉัน</h2>
-    <p>สวัสดีครับ ผมชื่อ นายอภิเชษฐ์ ทาสีลา (ชื่อเล่น ออม) อายุ 22 ปี</p>
-    <p>เกิดเมื่อวันที่ 10 สิงหาคม พ.ศ. 2545</p>
-    <p>ที่อยู่: 21 หมู่ 6 บ้านหนองเก็บชี ตำบลนาดี อำเภอเมือง จังหวัดอุดรธานี 41000</p><br>
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>ข้อมูลพื้นฐาน</h2>
+						</header>
+						<p><strong>ชื่อ-สกุล :</strong> นายอภิเชษฐ์ ทาสีลา (ชื่อเล่น ออม)<br> 
+						<strong>อายุ :</strong> 22 ปี <br>
+						<strong>วันเกิด :</strong> วันที่ 10 สิงหาคม พ.ศ. 2545<br>		
+						<strong>ที่อยู่ :</strong> 21 หมู่ 6 บ้านหนองเก็บชี ตำบลนาดี อำเภอเมืองอุดรธานี จังหวัดอุดรธานี 41000<br>
+						<strong>ความใฝ่ฝัน :</strong> มีความตั้งใจที่จะเป็น full stack developer อย่างแรงกล้า ความใฝ่ฝันอยากทำงานฟรีแลนด์เป็นอิสระในการทำงาน<br>
+						<strong>ภาษาที่ใช้ : </strong>ไทย(ระดับดีมาก), อังกฤษ(ระดับดี), ญี่ปุ่น(ระดับกลาง), จีน(ระดับน้อย)</p>
+						<ul class="actions">
+							<li><a href="http://127.0.0.1:5500/resume3/index.html#:~:text=Learn%20More-,%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2,-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A0%E0%B8%B1%E0%B8%8F%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5%20(%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%9B%E0%B8%B5%202022" class="button">Learn More</a></li>
+						</ul>
+					</section>
+					<section id="one">
+						<header class="major">
+							<h2>ประวัติการศึกษา</h2>
+						</header>
+						<p>มหาวิทยาลัยราชภัฏอุดรธานี (ตั้งแต่ปี 2022 ถึง ปัจจุบัน)<br> สาขาวิศวกรรมคอมพิวเตอร์และการสื่อสาร - GPA: 2.88</p>
+						<p>วิทยาลัยอาชีวศึกษาอุดรธานี (ตั้งแต่ปี 2020 ถึง ปี 2022)<br> สาขาเทคโนโลยีธุรกิจดิจิทัล - GPA: 3.95</p>
+						<p>โรงเรียนอุดรพิชัยรักษ์พิทยา (ตั้งแต่ปี 2017 ถึง ปี 2020)<br> แผนการเรียนวิทยาศาสตร์ - คณิตศาสตร์ - GPA: 2.88</p>
+						<ul class="actions">
+							<li><a href="http://127.0.0.1:5500/resume3/index.html#:~:text=Learn%20More-,%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99,-%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%20T%2DCars" class="button">Learn More</a></li>
+						</ul>
+					</section>
+				<!-- Two -->
+					<section id="two">
+						<h2>ประสบการณ์ทำงานและผลงาน</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/001.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3>ฝึกงานที่ T-Cars Service</h3>
+								<p>(ระยะเวลา 3 เดือน) พัฒนาระบบสต็อกอะไหล่โดย AppSheet เพิ่มอะไหล่แล้วกรอกข้อมูลของอะไหล่ที่ออกมาคือทำให้สินค้าง่ายต่อการจัดเก็บและค้นหาแล้วนำออกใช้งาน </p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/002.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>ฝึกงานที่ สำนักงานพาณิชย์จังหวัดอุดรธานี</h3>
+								<p>(ระยะเวลา 3 เดือน) ทำเอกสารการดำเนินงาน จัดเตรียมสถานที่สำหรับการประชุม จัดทำประชาสัมพันธ์</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/003.png" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<h3>ทำ workshop ที่มหาวิทยาลัย</h3>
+								<p>ทำ workshop ที่อาจารย์มอบหมายให้ทำที่มหาวิทยาลัย โดยการใช้ netpie ร่วมกับ Aduino ทำการส่งข้อมูลแล้วแสดงข้อมูลออกทาง Dashboard ของ netpie</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/004.png" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>ทำ workshop ที่มหาวิทยาลัย</h3>
+								<p>ทำ workshop ที่อาจารย์มอบหมายให้ทำที่มหาวิทยาลัย โดยการใช้ netpie ร่วมกับ Aduino ทำการส่งข้อมูลเซนเซอร์วัดอุณหภูมิ ความชื้น และเปิด-ปิด LED แล้วแสดงข้อมูลสถานะออกทาง Dashboard ของ netpie</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/005.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<h3>ทำ Smart Farm</h3>
+								<p>ช่วยงานอาจารย์ที่ศูนย์พัฒนาบ้านตาด การต่อท่อน้ำโดย Soleniod Valve ควบคุมการเปิดปิดของน้ำ อากาศ ไหลผ่าน</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/006.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>ศึกษาดูงาน</h3>
+								<p>(ระยะเวลา 3 วัน) โดยเดินทางไปศึกษาดูงานที่สถาบันพัฒนาบุคลากรสาขาเทคโนโลยีการผลิตอัตโนมัติและ<br>
+									หุ่นยนต์ ที่จังหวัดชลบุรี ได้รู้การสร้างชิ้นส่วนอะไหล่</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</section>
+					<section id="one">
+						<header class="major">
+							<h2>ความสามารถ</h2>
+						</header>
+						<p><strong>Java :</strong> ระดับดี<br> 
+						<strong>C++ :</strong> ระดับดี <br>
+						<strong>PHP :</strong> ระดับดี<br>		
+						<strong>Python :</strong> ระดับกลาง<br>
+						<strong>HTML :</strong> ระดับกลาง<br>
+						<strong>MySQL : </strong>ระดับดี</p>
+						<ul class="actions">
+							<li><a href="http://127.0.0.1:5500/resume3/index.html#:~:text=Learn%20More-,%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD,-%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD" class="button">Learn More</a></li>
+						</ul>
+					</section>
 
-    <h2><i class="fas fa-graduation-cap"></i> การศึกษา</h2>
-    <p>ระดับอนุปริญญา<br>
-    <img src="images/logo003.png" width="25%"><br>
-    - มหาวิทยาลัยราชภัฏอุดรธานี (ตั้งแต่ปี 2022 ถึง ปัจจุบัน)<br>
-    GPA: 2.88 </p><br>
-    
-    <p>ระดับประกาศนียบัตรวิชาชีพขั้นสูง<br>
-    <img src="images/logo002.png" width="25%"><br>
-    - วิทยาลัยอาชีวศึกษาอุดรธานี (ตั้งแต่ปี 2020 ถึง ปี 2022)<br>
-        GPA: 3.95 </p><br>
-        
-    <p>ระดับมัธยมศึกษาตอนปลาย<br>
-    <img src="images/logo.png" width="25%"><br>
-    - โรงเรียนอุดรพิชัยรักษ์พิทยา (ตั้งแต่ปี 2017 ถึง ปี 2020)<br>
-    GPA: 3.00 </p><br>
-        
-    <h2><i class="fas fa-briefcase"></i> ประสบการณ์ทำงาน</h2>
-    <p>- ฝึกงานที่ T-Cars Service สาขา2 นาดี (ตั้งแต่วันที่ 1 เมษายน 2567 ถึง 15 มิถุนายน 2567)<br>
-    ตำแหน่ง : นักศึกษาฝึกงาน</p>
-    <div class="center-img">
-        <img src="images/pic002.jpg" width="25%" height="25%">
-    </div><br>
-    
-    <h2><i class="fas fa-cogs"></i> ทักษะ</h2>
-    <p>- การเขียนโค้ดภาษา Python, C++ และ HTML </p>
-    <div class="center-img">
-        <img src="images/HTML.png" width="25%">\n
-        <img src="images/C.png" width="25%">\n
-        <img src="images/Python.png" width="25%"><br>
-    </div>
+				<!-- Three -->
+					<section id="three">
+						<h2>ช่องทางการติดต่อ</h2>
+						<p>หากต้องการติดต่อ ร่วมงานสามารถติดต่อช่องทางที่ขึ้นอยู่ได้เลย ผมรู้สึกยินดีเป็นอย่างยิ่งที่ได้เป็นส่วนหนึ่งในทีมงานพัฒนาสิ่งต่าง ๆ ให้ดีขึ้น</p>
+						<div class="row">						
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										21หมู่ 6บ้านหนองเก็บชี<br />
+										ตำบลนาดี อำเภอเมือง<br />
+										จังหวัดอุดรธานี 41000
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										063-649-4068
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">65001308108@udru.ac.th</a>
+									</li>
+									<li>
+										<h3 class="icon brands fa-facebook"><span class="label">Facebook</span></h3>
+										<a href="https://www.facebook.com/profile.php?id=100010155312823&locale=th_TH" target="_blank">Apichat Taseela</a>
+									</li>
+									<li>
+										<h3 class="icon brands fa-instagram" ><span class="label">Instagram</span></h3>
+										<a href="https://www.instagram.com/_ap._520" target="_blank">_ap._520</a>
+									</li>
+									<li>
+										<h3 class="icon brands fa-github" ><span class="label">Github</span></h3>
+										<a href="https://github.com/" target="_blank">Apichat-Ap</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="text" id="Text" >
+							<p><strong><a href="http://127.0.0.1:5500/resume3/index.html#:~:text=RESUME-,Apichet%20Taseela,-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%A7">TOP</strong></p>
+						</div>
+					
+			</div>
 
-    <p>- การพัฒนาเว็ปไซต์</p>
-    <div class="center-img">
-        <img src="images/pic003.png" width="500" height="200"><br>
-    </div>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/profile.php?id=100010155312823&locale=th_TH" target="_blank" class="icon brands fa-facebook"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.instagram.com/_ap._520" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-    <h2>งานอดิเรก</h2>
-    <p><i class="fas fa-gamepad"></i>เล่นเกม</p>
-    <p><i class="fas fa-music"></i> ฟังเพลง</p>
-    <p><i class="fas fa-camera"></i> ถ่ายภาพ</p>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-</section>
-
-
-    <!-- ส่วนติดต่อ -->
-    <section id="contact" class="section-content" style="display: none;">
-        <h2>ติดต่อฉัน</h2>
-        <ul>
-            <li><a href="https://web.facebook.com/profile.php?id=100010155312823" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-            <li><a href="https://www.instagram.com/_ap._520/profilecard/?igsh=MW54Nmloa2MydGJrYw==]" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://github.com/Apichet-ap" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i class="fas fa-envelope"></i> Email</a></li>
-        </ul>
-    </section>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
